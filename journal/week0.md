@@ -6,15 +6,18 @@ I run the next comands to cmd for installation
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
-[install cli on my local machine]()
+![install cli on my local machine](assets/install cli on my local machine)
 then i checked the aws version on local machine using this command
 ```
 aws --version
 ```
-[]()
-it throw an error while tring to run aws get-caller-identity
+![checking aws version on local machine](assets/checking aws version on local machine)
+it throw an error while tring to run 
+```
+aws get-caller-identity
+```
 and iI managed resolve this
-[]()
+![aws sts get-caller-id](assets/aws%20sts%20get-caller-id.jpg)
 
 
 
