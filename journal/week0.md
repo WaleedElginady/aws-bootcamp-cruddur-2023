@@ -11,7 +11,7 @@ then i checked the aws version on local machine using this command
 ```
 aws --version
 ```
-![checking aws version on local machine](assets/checking%20aws%20version%20on%20local%20machine.jpg)
+![checking aws version on local machine](assets/checking-aws%20version%20on%20local%20machine.jpg)
 it throw an error while tring to run 
 ```
 aws get-caller-identity
