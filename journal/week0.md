@@ -16,7 +16,7 @@ it throw an error while tring to run
 ```
 aws get-caller-identity
 ```
-and iI managed resolve this
+and I managed resolve this
 ![aws sts get-caller-id](assets/aws%20sts%20get-caller-id.jpg)
 
 
