@@ -19,7 +19,8 @@ aws get-caller-identity
 and I managed resolve this
 ![aws sts get-caller-id](assets/aws%20sts%20get-caller-id.jpg)
 
-
+already have a budget
+![my budget](assets/budget.jpg)
 
 
 
