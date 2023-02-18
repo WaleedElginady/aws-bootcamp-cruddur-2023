@@ -1,0 +1,19 @@
+[
+  {
+    "Notification": {
+      "NotificationType": "ACTUAL"|"FORECASTED",
+      "ComparisonOperator": "GREATER_THAN"|"LESS_THAN"|"EQUAL_TO",
+      "Threshold": double,
+      "ThresholdType": "PERCENTAGE"|"ABSOLUTE_VALUE",
+      "NotificationState": "OK"|"ALARM"
+    },
+    "Subscribers": [
+      {
+        "SubscriptionType": "SNS"|"EMAIL",
+        "Address": "string"
+      }
+      ...
+    ]
+  }
+  ...
+]
