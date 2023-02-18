@@ -25,3 +25,4 @@ and iI managed resolve this
 
 
 ##Homework Challenges
+![Arcetict Draft](assets/Conceptual%20Diagram.jpeg)
