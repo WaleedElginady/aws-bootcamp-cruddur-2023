@@ -1,0 +1,52 @@
+{
+  "BudgetName": "string",
+  "BudgetLimit": {
+    "Amount": "string",
+    "Unit": "string"
+  },
+  "PlannedBudgetLimits": {"string": {
+        "Amount": "string",
+        "Unit": "string"
+      }
+    ...},
+  "CostFilters": {"string": ["string", ...]
+    ...},
+  "CostTypes": {
+    "IncludeTax": true|false,
+    "IncludeSubscription": true|false,
+    "UseBlended": true|false,
+    "IncludeRefund": true|false,
+    "IncludeCredit": true|false,
+    "IncludeUpfront": true|false,
+    "IncludeRecurring": true|false,
+    "IncludeOtherSubscription": true|false,
+    "IncludeSupport": true|false,
+    "IncludeDiscount": true|false,
+    "UseAmortized": true|false
+  },
+  "TimeUnit": "DAILY"|"MONTHLY"|"QUARTERLY"|"ANNUALLY",
+  "TimePeriod": {
+    "Start": timestamp,
+    "End": timestamp
+  },
+  "CalculatedSpend": {
+    "ActualSpend": {
+      "Amount": "string",
+      "Unit": "string"
+    },
+    "ForecastedSpend": {
+      "Amount": "string",
+      "Unit": "string"
+    }
+  },
+  "BudgetType": "USAGE"|"COST"|"RI_UTILIZATION"|"RI_COVERAGE"|"SAVINGS_PLANS_UTILIZATION"|"SAVINGS_PLANS_COVERAGE",
+  "LastUpdatedTime": timestamp,
+  "AutoAdjustData": {
+    "AutoAdjustType": "HISTORICAL"|"FORECAST",
+    "HistoricalOptions": {
+      "BudgetAdjustmentPeriod": integer,
+      "LookBackAvailablePeriods": integer
+    },
+    "LastAutoAdjustTime": timestamp
+  }
+}
