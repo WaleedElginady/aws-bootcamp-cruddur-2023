@@ -31,3 +31,7 @@ putting architrect thoughts on paper
 Lucid Logical diagram 
 ![Lucid logical Diagram](https://lucid.app/lucidchart/9542bf86-656c-4502-a64e-e54400bfdf8a/edit?viewport_loc=-1416%2C-522%2C3328%2C1582%2C0_0&invitationId=inv_e1dac681-9491-4f4c-8234-09fae21b07fc)
 ![Lucid Logical Diagram](assets/crudder%20Lucid%20logical%20architect.jpg)
+
+-open support ticket
+![subbmitting increase service limit request-01](assets/Open%20support%20service%20limit%20ticket.jpg)
+![subbmitting increase service limit request-02](assets/Open%20support%20service%20limit%20ticket-2.jpg)
