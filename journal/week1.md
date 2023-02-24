@@ -13,3 +13,10 @@ more detailes
 ![more detailes about vulnerabilities ](assets/synk%20report%20detailes%20of%20vulnerabilities.jpg)
 - introduced to aws secret manager to save and manage passwords and credentials 
 - introduced to amazon inspector and its under hood engine clair for container image security analysis
+## Create the notification feature
+- watched  and walked through with Week 1 - Create the notification feature (Backend and Front)
+- and I followed the steps and we forget to install npm as well :D and we composed down to install befor compose up again
+- finally managed to get in to cruddur and make account 
+![sign up for crudder account](assets/sign%20up%20for%20cruddur%20account.jpg)
+- worked to modify open api to add notifications
+![commiting api update to add notifications](assets/update%20open%20api%20to%20add%20notifications.jpg)
