@@ -34,3 +34,5 @@ more detailes
 ![compose up after update code](assets/composing%20up%20DBs.jpg)
 - dynamoDB and postgres containers
 ![DBs containers](assets/DBs%20containers%20up.jpg)
+- postgres works
+![postgres finally](assets/postgres%20works.jpg)
