@@ -13,7 +13,7 @@ more detailes
 ![more detailes about vulnerabilities ](assets/synk%20report%20detailes%20of%20vulnerabilities.jpg)
 - introduced to aws secret manager to save and manage passwords and credentials 
 - introduced to amazon inspector and its under hood engine clair for container image security analysis
-## Create the notification feature
+## Create the notification feature at backend
 - watched  and walked through with Week 1 - Create the notification feature (Backend and Front)
 - and I followed the steps and we forget to install npm as well :D and we composed down to install befor compose up again
 - finally managed to get in to cruddur and make account 
@@ -24,3 +24,8 @@ more detailes
 ![notifications activities after debuging](assets/notifications%20activities%20code.jpg)
 - finally
 -![and it worked](assets/port%204567%20works%20for%20notifications%20activities.jpg)
+## Create the notification feature at frontend
+- notifications appeared at frontend
+![notifications button at frontend is here ](assets/notifications%20at%20frontend.jpg)
+- and this is the page with the right tag
+![Notifications at the top](assets/notifications%20with%20right%20tag.jpg)
