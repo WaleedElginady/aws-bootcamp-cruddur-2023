@@ -20,3 +20,7 @@ more detailes
 ![sign up for crudder account](assets/sign%20up%20for%20cruddur%20account.jpg)
 - worked to modify open api to add notifications
 ![commiting api update to add notifications](assets/update%20open%20api%20to%20add%20notifications.jpg)
+- I had some problems with notifications activities and it didn't work for port 4567 and after many attempts I managed to solve heeeehaaa :D
+![notifications activities after debuging](assets/notifications%20activities%20code.jpg)
+- finally
+-![and it worked](assets/port%204567%20works%20for%20notifications%20activities.jpg)
