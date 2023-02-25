@@ -29,3 +29,8 @@ more detailes
 ![notifications button at frontend is here ](assets/notifications%20at%20frontend.jpg)
 - and this is the page with the right tag
 ![Notifications at the top](assets/notifications%20with%20right%20tag.jpg)
+## adding DBs to our app
+- update code to add dynamoDB and postgrs DB
+![compose up after update code](assets/composing%20up%20DBs.jpg)
+- dynamoDB and postgres containers
+![DBs containers](assets/DBs%20containers%20up.jpg)
