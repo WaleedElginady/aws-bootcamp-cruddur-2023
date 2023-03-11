@@ -9,3 +9,7 @@
 ![](assets/week2/spans%20heat%20map-2.jpg)
 - span query
 ![](assets/week2/trace%20query.jpg)
+- xray 
+![xray.json](assets/week2/xray-jason.jpg)
+- instrument xray
+![instrument xray](assets/week2/instrument%20xray.jpg)
