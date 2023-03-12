@@ -13,3 +13,5 @@
 ![xray.json](assets/week2/xray-jason.jpg)
 - instrument xray
 ![instrument xray](assets/week2/instrument%20xray.jpg)
+- Cruddur log group cration
+![log group created](assets/week2/crudder%20log%20group%20created.jpg)
