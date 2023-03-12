@@ -19,3 +19,5 @@
 ![](assets/week2/xray%20successfully%20sent%20segments.jpg)
 - xray traces
 ![](assets/week2/xray%20traces.jpg)
+- cloudwatch logs
+![](assets/week2/cloudwatch%20logs.jpg)
