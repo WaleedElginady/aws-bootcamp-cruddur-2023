@@ -17,3 +17,5 @@
 ![log group created](assets/week2/crudder%20log%20group%20created.jpg)
 - x ray successfully sent segments
 ![](assets/week2/xray%20successfully%20sent%20segments.jpg)
+- xray traces
+![](assets/week2/xray%20traces.jpg)
