@@ -21,3 +21,6 @@
 ![](assets/week2/xray%20traces.jpg)
 - cloudwatch logs
 ![](assets/week2/cloudwatch%20logs.jpg)
+![xray segments](assets/week2/xray%20segments%20mar14.jpg)
+![xray subsegment andrew](assets/week2/xray%20subsegment%20andrew%20mar14.jpg)
+![xray trace](assets/week2/xray%20trace%20mar14.jpg)
