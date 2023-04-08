@@ -1,6 +1,5 @@
 #! /usr/bin/bash
 
-#echo "==== rds-update-sg-rule"
 CYAN='\033[1;36m'
 NO_COLOR='\033[0m'
 LABEL="rds-update-sg-rule"
