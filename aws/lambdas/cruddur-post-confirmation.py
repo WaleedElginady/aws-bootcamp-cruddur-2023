@@ -12,10 +12,7 @@ def lambda_handler(event, context):
     user_handle       = user['preferred_username']
     user_cognito_id   = user['sub']
     try:
-        conn = psycopg2.connect(os.getenv('CONNECTION_URL')),
-        cur = conn.cursor()
-
-
+        print('entered-try')  
         sql= f"""
             "INSERT INTO users (
                 display_name,
@@ -32,6 +29,8 @@ def lambda_handler(event, context):
         """
         print('sql statement ------')
         print(sql)
+        conn = psycopg2.connect(os.getenv('CONNECTION_URL')),
+        cur = conn.cursor()
         cur.execute(sql)
         conn.commit() 
 
