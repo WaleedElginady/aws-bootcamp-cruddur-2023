@@ -11,8 +11,6 @@ def lambda_handler(event, context):
     user_email        = user['email']
     user_handle       = user['preferred_username']
     user_cognito_id   = user['sub']
-    # conn= None
-    # cur= None
     try:
         print('entered-try')  
         sql= f"""
@@ -44,5 +42,4 @@ def lambda_handler(event, context):
             cur.close()
             conn.close()
             print('Database connection closed.')
-
     return event
