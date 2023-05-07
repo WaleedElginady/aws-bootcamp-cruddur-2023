@@ -4,6 +4,7 @@ from flask_cors import CORS, cross_origin
 import os
 import sys
 
+from services.users_short import *
 from services.home_activities import *
 from services.notifications_activities import *
 from services.user_activities import *
@@ -16,7 +17,7 @@ from services.create_message import *
 from services.show_activity import *
 
 from lib.cognito_jwt_token import CognitoJwtToken, extract_access_token, TokenVerifyError
-
+# from lib.momento import MomentoCounter
 #HoneyComb----------------------
 from opentelemetry import trace
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
@@ -33,8 +34,9 @@ from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 # cloudwatch logs -------
 import watchtower
 import logging
-from time import strftime
+# from time import strftime
 # Rollbar------
+from time import strftime
 import os
 import rollbar
 import rollbar.contrib.flask
@@ -48,7 +50,6 @@ from flask import got_request_exception
 #LOGGER.addHandler(console_handler)
 #LOGGER.addHandler(cw_handler)
 #LOGGER.info("test log")
-
 
 #HoneyComb----------------------
 # Initialize tracing and an exporter that can send data to Honeycomb
@@ -102,7 +103,6 @@ cors = CORS(
     #timestamp = strftime('[%Y-%b-%d %H:%M]')
     #LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
     #return response
-
 
 # Rollbar ----------
 rollbar_access_token = os.getenv('ROLLBAR_ACCESS_TOKEN')
